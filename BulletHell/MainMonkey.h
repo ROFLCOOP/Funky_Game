@@ -6,17 +6,17 @@
 class MainMonkey
 {
 public:
-	MainMonkey();
+	MainMonkey(float windowHeight, float windowWidth);
 	~MainMonkey();
-
-	void moveMonkey();
 
 	aie::Texture* getTexture();
 
 	float m_monkeyPosX;
 	float m_monkeyPosY;
-	float m_height = 124.3;
-	float m_width = 79.5;
+	const float m_height = 124.3f;
+	const float m_width = 79.5f;
+	
+	void setHitBox();
 
 	HitBox* m_hitbox = new HitBox;
 private:

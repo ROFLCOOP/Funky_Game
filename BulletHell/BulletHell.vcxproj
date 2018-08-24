@@ -163,12 +163,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BulletHellApp.cpp" />
+    <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainMonkey.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BulletHellApp.h" />
+    <ClInclude Include="Enemy.h" />
     <ClInclude Include="Hitbox.h" />
+    <ClInclude Include="ItemPool.h" />
     <ClInclude Include="MainMonkey.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -13,8 +13,8 @@ public:
 
 
 	ItemPool pool;
-	const float m_height = 50;
-	const float m_width = 40;
+	const float m_height = 40;
+	const float m_width = 50;
 
 	void setHitBox();
 
