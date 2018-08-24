@@ -9,7 +9,7 @@
 MainMonkey::MainMonkey(float windowHeight, float windowWidth)
 {
 	//the following font should be changed on release
-	m_funkyTexture = new aie::Texture("../bin/textures/main_Monkey.png");
+	m_funkyTexture = new aie::Texture("textures/main_Monkey.png");
 	
 	m_monkeyPosX = windowWidth * 0.5f;
 	m_monkeyPosY = windowHeight * 0.5f;

@@ -20,9 +20,9 @@ bool BulletHellApp::startup() {
 
 	// TODO: remember to change this when redistributing a build!
 	// the following path would be used instead: "./font/consolas.ttf"
-	m_font = new aie::Font("../bin/font/consolas.ttf", 32);
-	m_missileTexture = new aie::Texture("../bin/textures/cartoon_Missile.png");
-	m_starTexture = new aie::Texture("../bin/textures/Star-3.png");
+	m_font = new aie::Font("font/consolas.ttf", 32);
+	m_missileTexture = new aie::Texture("textures/cartoon_Missile.png");
+	m_starTexture = new aie::Texture("textures/Star-3.png");
 
 	monkey1->m_monkeyPosX = getWindowWidth() * 0.5f;
 	monkey1->m_monkeyPosY = getWindowHeight() * 0.5f;

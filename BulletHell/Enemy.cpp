@@ -4,7 +4,7 @@
 
 Enemy::Enemy(float windowWidth, float windowHeight)
 {
-	m_enemyTexture = new aie::Texture("../bin/textures/ship.png");
+	m_enemyTexture = new aie::Texture("textures/ship.png");
 	pool.posY = windowHeight;
 	pool.posX = windowWidth * 0.25f;
 	pool.rotate = 3.1415926f;
